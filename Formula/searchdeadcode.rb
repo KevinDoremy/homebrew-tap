@@ -4,28 +4,28 @@
 class Searchdeadcode < Formula
   desc "Fast CLI tool to detect dead/unused code in Android projects (Kotlin & Java)"
   homepage "https://github.com/KevinDoremy/SearchDeadCode"
-  version "0.10.0"
+  version "0.10.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/KevinDoremy/SearchDeadCode/releases/download/v0.10.0/searchdeadcode-macos-x86_64"
-      sha256 "98f7fb1874efb532a541a24d0d469078719130a82e36befb2d6426dced92c1a3"
+      url "https://github.com/KevinDoremy/SearchDeadCode/releases/download/v0.10.1/searchdeadcode-macos-x86_64"
+      sha256 "c917f8f2957a7a73238fedb47ef4b9859fb38dba1c80faad40ff2afb7539b8d3"
     end
     on_arm do
-      url "https://github.com/KevinDoremy/SearchDeadCode/releases/download/v0.10.0/searchdeadcode-macos-aarch64"
-      sha256 "f6afbb877f5d5078b5edcef79f4afc42014eab0d6121222008dd0b7abb260b69"
+      url "https://github.com/KevinDoremy/SearchDeadCode/releases/download/v0.10.1/searchdeadcode-macos-aarch64"
+      sha256 "f28891b0cd5ae2628791d8599d2372d2fa5a637edb32fb9b90f12358bf195f25"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/KevinDoremy/SearchDeadCode/releases/download/v0.10.0/searchdeadcode-linux-x86_64"
-      sha256 "4876d62ef4455719ddf832fb1563f7648872d6464696126e8f19ff0766395612"
+      url "https://github.com/KevinDoremy/SearchDeadCode/releases/download/v0.10.1/searchdeadcode-linux-x86_64"
+      sha256 "0dd11749dd7b918b34c0a70f73960a7d769630a8bcde48ba1452cbf40ae00f39"
     end
     on_arm do
-      url "https://github.com/KevinDoremy/SearchDeadCode/releases/download/v0.10.0/searchdeadcode-linux-aarch64"
-      sha256 "0886c58878dbb8a5a73d681280b93e2e446075d928ff43bb56eb0d809deda0e2"
+      url "https://github.com/KevinDoremy/SearchDeadCode/releases/download/v0.10.1/searchdeadcode-linux-aarch64"
+      sha256 "8da90f573bc73c307e5eda6e116aba4884d0acd50cbf856f74cce49dd763d1f5"
     end
   end
 
