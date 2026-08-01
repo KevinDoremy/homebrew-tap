@@ -6,28 +6,28 @@
 class Searchdeadcode < Formula
   desc "Fast CLI tool to detect dead/unused code in Android projects (Kotlin & Java)"
   homepage "https://github.com/KevinDoremy/SearchDeadCode"
-  version "0.14.1"
+  version "0.15.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/KevinDoremy/SearchDeadCode/releases/download/v0.14.1/searchdeadcode-macos-x86_64"
-      sha256 "4e95f31ec45303964724b108b1598dad1ad81f5f80fac75a9366fefebd967d77"
+      url "https://github.com/KevinDoremy/SearchDeadCode/releases/download/v0.15.0/searchdeadcode-macos-x86_64"
+      sha256 "943a2358e5d3959d97fc26db4fff8fc5cd5be785bc36974eec59c75c68c16e34"
     end
     on_arm do
-      url "https://github.com/KevinDoremy/SearchDeadCode/releases/download/v0.14.1/searchdeadcode-macos-aarch64"
-      sha256 "db1745771553f6a89dec3d01991154394409078c2756f95a9f1747f37d966477"
+      url "https://github.com/KevinDoremy/SearchDeadCode/releases/download/v0.15.0/searchdeadcode-macos-aarch64"
+      sha256 "ca47fbe78a486439806a737b3dedd8fd1cf9eddc3095472cc1ee008a70ab6d55"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/KevinDoremy/SearchDeadCode/releases/download/v0.14.1/searchdeadcode-linux-x86_64"
-      sha256 "f948c49f89cf5f4dc1eefc495e80296ce0b51e7c2963444c26a4737af4453c44"
+      url "https://github.com/KevinDoremy/SearchDeadCode/releases/download/v0.15.0/searchdeadcode-linux-x86_64"
+      sha256 "9275687e70004005dbc4dcd0e6dbb2aee30c6b248616d017f6bcc57fe83b57e4"
     end
     on_arm do
-      url "https://github.com/KevinDoremy/SearchDeadCode/releases/download/v0.14.1/searchdeadcode-linux-aarch64"
-      sha256 "eba97c7e7327c2b1161beaff3cd8e343495115230ca40f02a8922b7d940bac1c"
+      url "https://github.com/KevinDoremy/SearchDeadCode/releases/download/v0.15.0/searchdeadcode-linux-aarch64"
+      sha256 "99eda7cd74456cd0b8a0b7078d972843c896a6f8dcad4e8dcab900eb7f0898f7"
     end
   end
 
@@ -38,6 +38,6 @@ class Searchdeadcode < Formula
   end
 
   test do
-    assert_match "0.14.1", shell_output("#{bin}/searchdeadcode --version")
+    assert_match "0.15.0", shell_output("#{bin}/searchdeadcode --version")
   end
 end
